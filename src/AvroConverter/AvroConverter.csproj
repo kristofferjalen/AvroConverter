@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net462</TargetFramework>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Authors>Kristoffer Jälén</Authors>
+    <Company />
+    <Description>Library to convert from Apache Avro to JSON.</Description>
+    <PackageProjectUrl>https://github.com/kristofferjalen/avroconverter</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CSharp" Version="4.5.0" />
+    <PackageReference Include="Microsoft.Hadoop.Avro" Version="1.5.6" />
+  </ItemGroup>
+
+</Project>
