@@ -6,7 +6,8 @@
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <Authors>Kristoffer Jälén</Authors>
     <Company />
-    <Description>Library to convert from Apache Avro to JSON.</Description>
+    <VersionPrefix>1.0.1</VersionPrefix>
+    <Description>.NET library to convert from Azure Event Hubs Archive Apache Avro files to JSON files.</Description>
     <PackageProjectUrl>https://github.com/kristofferjalen/avroconverter</PackageProjectUrl>
   </PropertyGroup>
 
